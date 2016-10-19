@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="420px" height="154px" viewBox="0 0 420 154" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>SCHRIFTZU_02_white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SCHRIFTZU_02_white" transform="translate(-7.000000, 0.000000)">
+            <text id="KIVE" font-family="Roboto-Black, Roboto" font-size="140" font-weight="700" fill="#FFFFFF">
+                <tspan x="0" y="135">KIVE</tspan>
+            </text>
+            <path d="M11,149 L296,149" id="Line" stroke="#FFFFFF" stroke-width="8" stroke-linecap="square"></path>
+            <ellipse id="Oval" fill="#FFFFFF" opacity="0.457264459" cx="379.5" cy="150" rx="14.5" ry="4"></ellipse>
+            <g id="Group-2" transform="translate(331.000000, 0.000000)">
+                <path d="M47.551872,135.920319 C47.551872,135.920319 95.2034859,83.6454111 95.1037441,47.4422853 C95.1037441,21.2406346 73.8140458,0 47.551872,0 C21.2896983,0 0,21.2406346 0,47.4422853 C0.179918222,83.4407947 47.551872,135.920319 47.551872,135.920319 Z M47.6779993,85.3449467 C68.5981274,85.3449467 85.5572421,68.4249156 85.5572421,47.5529995 C85.5572421,26.6810833 68.5981274,9.76105216 47.6779993,9.76105216 C26.7578712,9.76105216 9.79875658,26.6810833 9.79875658,47.5529995 C9.79875658,68.4249156 26.7578712,85.3449467 47.6779993,85.3449467 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <g id="Group" transform="translate(14.589952, 14.561947)" stroke="#FFFFFF" stroke-width="4">
+                    <ellipse id="Oval" cx="32.38658" cy="32.2912017" rx="11.9249468" ry="11.8974649"></ellipse>
+                    <ellipse id="Oval" opacity="0.5" cx="33.0880475" cy="32.9910525" rx="26.6557634" ry="26.5943333"></ellipse>
+                    <ellipse id="Oval" opacity="0.3" cx="33.0880475" cy="32.9910525" rx="32.2675031" ry="32.1931403"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

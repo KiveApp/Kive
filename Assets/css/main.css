@@ -1,0 +1,185 @@
+
+.mt-0 {margin-top: 0px;}
+.mt-10{margin-top: 10px;}
+.mt-20{margin-top: 20px;}
+.mt-30{margin-top: 30px;}
+.mt-40{margin-top: 40px;}
+.mt-50{margin-top: 50px;}
+.mt-60{margin-top: 60px;}
+.mt-70{margin-top: 70px;}
+.mt-80{margin-top: 80px;}
+
+.mb-0 {margin-bottom: 0px;}
+.mb-10{margin-bottom: 10px;}
+.mb-20{margin-bottom: 20px;}
+.mb-30{margin-bottom: 30px;}
+.mb-40{margin-bottom: 40px;}
+.mb-50{margin-bottom: 50px;}
+.mb-60{margin-bottom: 60px;}
+.mb-70{margin-bottom: 70px;}
+.mb-80{margin-bottom: 80px;}
+
+.ml-15{margin-left: 15px;}
+
+.pr-0{padding-right: 0px;}
+.pr-10{padding-right: 10px;}
+.pr-20{padding-right: 20px;}
+.pr-30{padding-right: 30px;}
+.pr-40{padding-right: 40px;}
+
+.text-center{text-align: center;}
+.text-white{color:  white;}
+
+
+@media screen and (min-width: 480px) {
+    
+}    
+.container-menu {
+    margin-top: 20px;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0px;
+    transition: 0.4s;
+    background-color: white;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+   
+}
+.nametag {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0px;
+    color: #ccc;
+    text-indent: -6000px;
+    width: 250px;
+    height: 50px;
+    background: url('/Assets/pictures/SCHRIFTZU_white.svg') top left no-repeat;
+    display: inline-block;
+    background-size: contain;
+    
+
+}
+
+.kive_icon {
+    max-width: 13%;
+    height: auto;
+}
+video { 
+  
+    opacity: 0.9;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('/Assets/videos/main.mp4') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+.signin_container {
+    background-color: rgba(0,0,0,0.6);
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+
+
+
+
+
+.login-btn {
+    display: block;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", "Arial", "Sans Serif";
+    font-size: 13px;
+    border: 0;
+    background-size: 12%;
+    height: 30px;
+    border-radius: 30px;
+    padding: 5px 10px 5px 10px; 
+}
+
+.spotify-btn{
+   
+    background: #1DB954;
+   
+    
+}
+.spotify-btn i{
+    font-size: 20px;
+    line-height: 14px;
+    
+}
+
+.soundcloud-btn {
+    font-size: 11px;
+    background-color: rgb(255, 85, 0);
+   margin: 15px auto;
+    border-radius: 4px;
+   
+}
+.soundcloud-btn i{
+    font-size: 13px;
+    
+}
+
+.headline {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.menu-container {
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    background-color: rgba(255, 255, 255,0.9);
+    width: 300px;
+    border-radius: 5px;
+    z-index: 9999;
+    
+}
+.menu-list div{
+   position: relative;
+    
+   
+}
+.menu-list {
+    list-style: none;
+      font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.menu-list li:hover{
+   color: #EA2E36;
+}
+.hidden{
+    display: none;
+}
