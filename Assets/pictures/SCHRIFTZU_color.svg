@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="420px" height="155px" viewBox="0 0 420 155" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SCHRIFTZU_01" transform="translate(-145.000000, -494.000000)">
+            <g id="Group-3" transform="translate(138.000000, 494.000000)">
+                <text id="KIVE" font-family="Roboto-Black, Roboto" font-size="140" font-weight="700" fill="#5B5B5B">
+                    <tspan x="0" y="136.007564">KIVE</tspan>
+                </text>
+                <path d="M11,150.878971 L296,150.878971" id="Line" stroke="#979797" stroke-width="8" stroke-linecap="square"></path>
+                <ellipse id="Oval" fill="#979797" opacity="0.457264459" cx="379.5" cy="149.87292" rx="14.5" ry="3.01815431"></ellipse>
+                <path d="M378.551872,137.72014 C378.551872,137.72014 426.203486,85.1288932 426.103744,48.7066864 C426.103744,22.3464781 404.814046,0.97730711 378.551872,0.97730711 C352.289698,0.97730711 331,22.3464781 331,48.7066864 C331.179918,84.9230386 378.551872,137.72014 378.551872,137.72014 Z" id="Oval-2" fill="#EA2E36"></path>
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="4" opacity="0.66744403" cx="378.677999" cy="48.8180706" rx="26.6557634" ry="26.7552672"></ellipse>
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="4" cx="377.976532" cy="48.1139846" rx="11.9249468" ry="11.9694617"></ellipse>
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="4" opacity="0.363980877" cx="378.677999" cy="48.8180706" rx="32.2675031" ry="32.3879551"></ellipse>
+                <ellipse id="Oval" stroke="#FFFFFF" stroke-width="4" opacity="0.185692631" cx="378.677999" cy="48.8180706" rx="37.8792427" ry="38.0206429"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
