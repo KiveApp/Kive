@@ -20,15 +20,11 @@ function getEventsByArtistLocationAndRadius(artist,position,radius){
                                                 if (data.length) {
                                                     var htitle = "<span class='title'>" + data[0].title + "</span>";
                                                     var hdate = '<span class="date">' + data[0].formatted_datetime + "</span>";
-//                                SPAN VON THUMBNAIL WIRD ÜBERNOMMEN
-                                                    var buyicon = "<span class='buyicon pull-right'><a href='" + data[0].ticket_url+"'></a></span>";
-                                                    var goToArtist = "<span class='openinspotify'><a href='"+artist.external_urls.spotify + "'>Listen</a></span>";
-                                                    
                                                     console.log("x")
                                                     console.log(data[0]);
                                                     console.log(artist.images[0].url);
                                                     //<li>' + data[0].title + ' (' +  data[0].formatted_datetime + 
-                                                    $('.gallary-container').append('<div class="thumb-container">' + '<img src="' + artist.images[0].url + '"' + 'class="img-responsive"/>' + htitle + hdate + buyicon + goToArtist + '</div>');
+                                                    $('.gallary-container').append('<div class="thumb-container">' + '<img src="' + artist.images[0].url + '"' + 'class="img-responsive"/>' + htitle + hdate + '</div>');
                                                 }
                                             }
                                         });

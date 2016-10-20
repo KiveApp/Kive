@@ -30,7 +30,7 @@
 .text-center{text-align: center;}
 .text-white{color:  white;}
 
-.np{padding: 0;}   
+    
 
 @media screen and (min-width: 480px) {
     
@@ -65,8 +65,8 @@
    
 }
 .nametag {
-    
-    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
     font-size: 0px;
     color: #ccc;
     text-indent: -6000px;
@@ -75,12 +75,7 @@
     background: url('/Assets/pictures/SCHRIFTZU_white.svg') top left no-repeat;
     display: inline-block;
     background-size: contain;
- 
     
-
-}
-a{
-    text-decoration: none;
 
 }
 
@@ -157,8 +152,8 @@ video {
 }
 
 .headline {
-font-family: 'Source Sans Pro', sans-serif;
-    font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
     font-weight: 600;
     line-height: normal;
     text-align: center;
@@ -226,7 +221,7 @@ footer{
     color: white;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
-   
+    font-size: 20px;
     line-height: 0.9;
     left: 15px;
 
@@ -238,10 +233,8 @@ footer{
 }
 .date{
     top:50px;
-     font-size: 15px;
 }
 .title{
-     font-size: 20px;
     top:10px;
     
 }
@@ -254,7 +247,7 @@ footer{
 
 .umkreis-btn {
     color: white;
-font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     background-color:  #EA2E36;
     border: 0;
@@ -269,17 +262,6 @@ font-family: 'Source Sans Pro', sans-serif;
     margin: 0 auto;
 }
 
-#getstarted {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 30px;
-    
 
-}
-.buyicon{
-    position: absolute;
-    bottom:0;
-    right:0;
-    height: 50px;
-    background: url("/Assets/pictures/buy_icon.svg") no-repeat;
-   
-}
+
+
