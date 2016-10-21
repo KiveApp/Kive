@@ -292,10 +292,6 @@ footer {}
     background-color: black;
 }
 
-.date {
-    top: 50px;
-    font-size: 15px;
-}
 
 .title {
     font-size: 20px;
@@ -359,3 +355,42 @@ footer {}
     width: 175px;
     font-size: 20px;
 }
+
+
+.date-container {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.date-container .date {
+    position: relative !important;
+    width: 100px;
+    height: 130px;
+    background-color: #ffffff;
+}
+
+.date-container .date .month {
+    position: relative !important;
+    display: block !important;
+    height: 50px;
+    background-color: #ff2f23;
+    margin: 0;
+    padding: 5px;
+    left:0;
+    text-align: center;
+    font-size: 44px;
+}
+
+.date-container .date .day {
+    position: relative !important;
+    display: block !important;
+    color: #000000;
+    margin: 0;
+    font-size: 75px;
+    padding: 10px;
+    left:0;
+    text-align: center;
+}
+
+
