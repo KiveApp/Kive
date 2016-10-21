@@ -20,7 +20,6 @@
 </head>
 
 <body>
-    
     <div class="container-fluid" style="background-color:black;">
         <div class="row header">
             <div class="col-xs-10 mb-10"> <span class="nametag">KIVE</span>
@@ -30,7 +29,7 @@
                 <div class="container-menu mt-20 pull-right" onclick="togglemenu(this)">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
-                    <div class="bar3"></div> 
+                    <div class="bar3"></div>
                 </div>
             </div>
         </div>
@@ -38,55 +37,38 @@
             <div col-xs-12>
                 <p class=" ml-15 headline mt-30 text-white">Recommended</p>
                 <div class="settings ml-15">
-                
-                    <select name="radius" id="radius">
-  <option value="25">25mil</option>
-  <option value="50">50mil</option>
-  <option value="75">75mil</option>
-  <option value="100">100mil</option>
-  <option value="125">125mil</option>
-  <option value="150">150mil</option>
-</select>
-                    
+                    <select name="radius" id="radius" class="mt-20">
+                        <option value="25">25mil</option>
+                        <option value="50">50mil</option>
+                        <option value="75">75mil</option>
+                        <option value="100">100mil</option>
+                        <option value="125">125mil</option>
+                        <option value="150">150mil</option>
+                    </select>
                     <div class="input-group mt-10">
-  
-  <input type="text" class="form-control loc-in" placeholder="Location" aria-describedby="basic-addon1">
-</div>
-
-                
-                
+                        <input id="position-input" type="text" class="form-control loc-in" placeholder="Location" aria-describedby="basic-addon1"> </div>
                 </div>
             </div>
         </div>
         <div class="row mt-40 menu-container hidden">
-                <div class="col-xs-12  ">
+            <div class="col-xs-12  ">
                 <ul class="text-center menu-list">
-                <li>My Concerts</li>
-                <li>Logout</li>
+                    <li>My Concerts</li>
+                    <li>Logout</li>
                 </ul>
-                </div>
-                
             </div>
-        
+        </div>
         <div class="row mt-40">
             <div class="col-xs-12 events">
-                
-                <div class="gallary-container">
-                
-                </div>
-                
+                <div class="gallary-container"> </div>
             </div>
-            
         </div>
     </div>
-    
-   
 </body>
-   
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    
-    <script src = "/Assets/Bootstrap/js/bootstrap.min.js" ></script>
-    <script src="https://use.fontawesome.com/ff923a40b1.js"></script>
-    <script src="/Assets/Spotify/lib.js"></script>
-    <script src="/Assets/js/main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/Assets/Bootstrap/js/bootstrap.min.js"></script>
+<script src="https://use.fontawesome.com/ff923a40b1.js"></script>
+<script src="/Assets/Spotify/lib.js"></script>
+<script src="/Assets/js/main.js"></script>
+
 </html>
