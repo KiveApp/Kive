@@ -33,17 +33,29 @@
 
                          var hdate =
                              '<div class="date-container">' +
-                             '<div class="date">' +
-                             '<span class="month">' + calenderMonths[eventDate.getMonth() - 1] +'</span>' +
-                             '<span class="day">' + eventDate.getDay() + '</span>' +
-                             '</div>' +
+                                '<div class="date">' +
+                                    '<span class="month">' + calenderMonths[eventDate.getMonth() - 1] +'</span>' +
+                                    '<span class="day">' + eventDate.getDay() + '</span>' +
+                                '</div>' +
                              '</div>';
+
+
 
                          console.log("x")
                          console.log(event);
                          console.log(event.artists[0].image_url);
                          //<li>' + data[0].title + ' (' +  data[0].formatted_datetime +
-                         $('.gallary-container').append('<div class="thumb-container">' + '<img src="' + event.artists[0].image_url + '"' + 'class="img-responsive"/>' + htitle + '<div>' + hdate + buyicon + '</div>'  + '</div>');
+                         $('.gallary-container').append(
+                             '<div class="thumb-container">' +
+                                '<img src="' + event.artists[0].image_url + '"' + 'class="img-responsive"/>' +
+                                 '<div class="title">' +
+                                    '<h1 class="artist-name">' + event.artists[0].name + '</h1>' +
+                                    '<h2 class="location-name">' + event.venue.name + ', ' + event.venue.city + '</h2>' +
+                                 '</div>' +
+
+                             '<div>' +
+                             hdate +
+                             buyicon);
 
                          /*$('.gallary-container').append('' +
                              '<div class="thumb-container">'+
