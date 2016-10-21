@@ -26,7 +26,8 @@
                          //var hdate = '<span class="date">' + event.formatted_datetime + "</span>";
                          //                                SPAN VON THUMBNAIL WIRD ÜBERNOMMEN
                          var buyicon = "<a href='" + event.ticket_url + "'><span class='buyicon pull-right'></span></a>";
-                         var eventDate = new Date(data[0].datetime);
+                         var eventDate = new Date(event.datetime) //Date(data[0].datetime);
+
 
                          var calenderMonths = ['Jan', 'Feb', 'Mar', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'];
 
@@ -34,8 +35,8 @@
                          var hdate =
                              '<div class="date-container">' +
                                 '<div class="date">' +
-                                    '<span class="month">' + calenderMonths[eventDate.getMonth() - 1] +'</span>' +
-                                    '<span class="day">' + eventDate.getDay() + '</span>' +
+                                    '<span class="month">' + calenderMonths[eventDate.getMonth()] +'</span>' +
+                                    '<span class="day">' + eventDate.getDate() + '</span>' +
                                 '</div>' +
                              '</div>';
 
