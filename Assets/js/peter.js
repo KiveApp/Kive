@@ -1,10 +1,3 @@
-    
-function togglemenu(x) {
-    x.classList.toggle("change");
-    $(".menu-container").toggleClass("hidden");
-}
-
-
 $(document).ready(function() {
 
     /* 
@@ -19,12 +12,11 @@ $(document).ready(function() {
         https://developer.spotify.com/web-api/using-scopes/
     */
     var spotifyAuthOptions = {
-        client_id: 'fdc1dc7e249848609c38c17e5a88da9b',
+        client_id: 'ecad0af400c04f358851ea0519be1070',
         response_type: 'token',
-        redirect_uri: 'http://localhost:3000/profile',
+        redirect_uri: 'http://localhost:51215',
         scope: 'user-read-private user-follow-read'
     }
-    
 
     /*
         bandsintown api config
@@ -42,7 +34,7 @@ $(document).ready(function() {
     // build the spotify login url
     var spotifyLoginUrl = 'https://accounts.spotify.com/authorize?' + $.param(spotifyAuthOptions);
 
-    $('#login-btn-spotify').attr('href', spotifyLoginUrl);
+    $('#login-btn').attr('href', spotifyLoginUrl);
 
     if(window.location.hash) {
         // get token from redirected request url hash
@@ -54,8 +46,8 @@ $(document).ready(function() {
             // at the point we are loged in with spotify
             var accessToken = authHash.pop();
 
-//            $('.container.login').addClass('hidden');
-//            $('.container.events').removeClass('hidden');
+            $('.container.login').addClass('hidden');
+            $('.container.events').removeClass('hidden');
 
             console.log('Authorized with access_token = "' + accessToken + '"');
 
@@ -69,14 +61,12 @@ $(document).ready(function() {
             spotifyApi.getMe(function(error, data) {
                 
                 $('.container.events h1').text('Hallo, ' + data.display_name);
-                console.log(data);
             });
 
-            spotifyApi.getFollowedArtists({after: '0I2XqVXqHScXjHhk6AYYRe'},function(error, data) {
-                console.log(data);
+            spotifyApi.getFollowedArtists(function(error, data) {
                 // if there is no error go on with the flow
                 if(!error) {
-                    $(".gallary-container").addClass
+                    
                     $.each(data.artists.items, function(index, artist) {
                        
                          // get data via bandintown.com using jsonp by adding callback=? this is for jquery to match the callback name automaticly
@@ -88,16 +78,9 @@ $(document).ready(function() {
                             success: function(data) {
                                 // check if there are concerts
                                 if(data.length) {
-                                    
-                                    var htitle = "<span class='title'>"+ data[0].title +"</span>";
-                                    var hdate = '<span class="date">'+ data[0].formatted_datetime +"</span>";
-                                    
-                                    console.log("x")
                                     console.log(data[0]);
-                                    console.log(artist.images[0].url);
-                                    
-//<li>' + data[0].title + ' (' +  data[0].formatted_datetime + 
-                                    $('.gallary-container').append('<div class="thumb-container">'+'<img src="' + artist.images[0].url + '"'+ 'class="img-responsive"/>' + htitle + hdate + '</div>');
+
+                                    $('.container.events ul').append('<li>' + data[0].title + ' (' +  data[0].formatted_datetime +')</li>');
                                 }
                             }
                         });
