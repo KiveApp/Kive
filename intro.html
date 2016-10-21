@@ -1,0 +1,38 @@
+<html>
+
+<body>
+
+    <video id="myVideo" video playsinline autoplay muted>
+
+    <source src="Assets/videos/intro.m4v" type="video/mp4">
+    </video>
+
+    </body>
+
+
+<style>
+    video {
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('/Assets/videos/intro.m4v') no-repeat;
+    background-size: contain;
+    transition: 1s opacity;
+}
+    </style>
+
+<script type='text/javascript'>
+    document.getElementById('myVideo').addEventListener('ended',myHandler,false);
+    function myHandler(e) {
+       window.location.href = "/";
+    }
+</script>
+
+</html>
