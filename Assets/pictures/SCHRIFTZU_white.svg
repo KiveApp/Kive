@@ -1,24 +1,46 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="420px" height="154px" viewBox="0 0 420 154" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
-    <title>SCHRIFTZU_02_white</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="SCHRIFTZU_02_white" transform="translate(-7.000000, 0.000000)">
-            <text id="KIVE" font-family="Roboto-Black, Roboto" font-size="140" font-weight="700" fill="#FFFFFF">
-                <tspan x="0" y="135">KIVE</tspan>
-            </text>
-            <path d="M11,149 L296,149" id="Line" stroke="#FFFFFF" stroke-width="8" stroke-linecap="square"></path>
-            <ellipse id="Oval" fill="#FFFFFF" opacity="0.457264459" cx="379.5" cy="150" rx="14.5" ry="4"></ellipse>
-            <g id="Group-2" transform="translate(331.000000, 0.000000)">
-                <path d="M47.551872,135.920319 C47.551872,135.920319 95.2034859,83.6454111 95.1037441,47.4422853 C95.1037441,21.2406346 73.8140458,0 47.551872,0 C21.2896983,0 0,21.2406346 0,47.4422853 C0.179918222,83.4407947 47.551872,135.920319 47.551872,135.920319 Z M47.6779993,85.3449467 C68.5981274,85.3449467 85.5572421,68.4249156 85.5572421,47.5529995 C85.5572421,26.6810833 68.5981274,9.76105216 47.6779993,9.76105216 C26.7578712,9.76105216 9.79875658,26.6810833 9.79875658,47.5529995 C9.79875658,68.4249156 26.7578712,85.3449467 47.6779993,85.3449467 Z" id="Combined-Shape" fill="#FFFFFF"></path>
-                <g id="Group" transform="translate(14.589952, 14.561947)" stroke="#FFFFFF" stroke-width="4">
-                    <ellipse id="Oval" cx="32.38658" cy="32.2912017" rx="11.9249468" ry="11.8974649"></ellipse>
-                    <ellipse id="Oval" opacity="0.5" cx="33.0880475" cy="32.9910525" rx="26.6557634" ry="26.5943333"></ellipse>
-                    <ellipse id="Oval" opacity="0.3" cx="33.0880475" cy="32.9910525" rx="32.2675031" ry="32.1931403"></ellipse>
-                </g>
-            </g>
-        </g>
-    </g>
+<svg width="416" height="158" viewBox="0 0 416 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>SCHRIFTZU_03_white</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(425 443)" figma:type="canvas">
+<g id="SCHRIFTZU_03_white" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Page-1" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="SCHRIFTZU 02 white" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="KIVE" style="mix-blend-mode:normal;" figma:type="text">
+<use xlink:href="#path0_fill" transform="translate(-436 -448)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Line" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path1_stroke" transform="translate(-417 -293)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Oval" style="mix-blend-mode:normal;" opacity="0.457264" figma:type="vector">
+<use xlink:href="#path2_fill" transform="translate(-71 -297)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Group-2" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Combined-Shape" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path3_fill" transform="translate(-105 -443)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Group" style="mix-blend-mode:normal;" figma:type="frame">
+<g id="Oval" style="mix-blend-mode:normal;" figma:type="vector">
+<use xlink:href="#path4_stroke" transform="translate(-69.9484 -408.044)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Oval" style="mix-blend-mode:normal;" opacity="0.5" figma:type="vector">
+<use xlink:href="#path5_stroke" transform="translate(-83.9778 -422.041)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+<g id="Oval" style="mix-blend-mode:normal;" opacity="0.3" figma:type="vector">
+<use xlink:href="#path6_stroke" transform="translate(-89.5895 -427.64)" fill="#FFFFFF" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 36.8457 83.6035L 24.6777 96.25L 24.6777 129.883L 11.5527 129.883L 11.5527 30.3516L 24.6777 30.3516L 24.6777 79.5703L 68.9062 30.3516L 84.7656 30.3516L 45.5957 74.3066L 87.8418 129.883L 72.1191 129.883L 36.8457 83.6035ZM 113.408 129.883L 100.283 129.883L 100.283 30.3516L 113.408 30.3516L 113.408 129.883ZM 170.42 112.451L 198.857 30.3516L 213.213 30.3516L 176.299 129.883L 164.678 129.883L 127.832 30.3516L 142.119 30.3516L 170.42 112.451ZM 282.871 83.877L 239.736 83.877L 239.736 119.15L 289.844 119.15L 289.844 129.883L 226.611 129.883L 226.611 30.3516L 289.16 30.3516L 289.16 41.1523L 239.736 41.1523L 239.736 73.1445L 282.871 73.1445L 282.871 83.877Z"/>
+<path id="path1_stroke" d="M 0 -7.34227L -7.34227 -7.34227L -7.34227 7.34227L 0 7.34227L 0 -7.34227ZM 263 7.34227L 270.342 7.34227L 270.342 -7.34227L 263 -7.34227L 263 7.34227ZM 0 7.34227L 263 7.34227L 263 -7.34227L 0 -7.34227L 0 7.34227Z"/>
+<path id="path2_fill" d="M 14.5 8C 22.5081 8 29 6.20914 29 4C 29 1.79086 22.5081 0 14.5 0C 6.49187 0 0 1.79086 0 4C 0 6.20914 6.49187 8 14.5 8Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 47.5519 135.92C 47.5519 135.92 95.2035 83.6454 95.1037 47.4423C 95.1037 21.2406 73.814 0 47.5519 0C 21.2897 0 0 21.2406 0 47.4423C 0.179918 83.4408 47.5519 135.92 47.5519 135.92ZM 47.678 85.3449C 68.5981 85.3449 85.5572 68.4249 85.5572 47.553C 85.5572 26.6811 68.5981 9.76105 47.678 9.76105C 26.7579 9.76105 9.79876 26.6811 9.79876 47.553C 9.79876 68.4249 26.7579 85.3449 47.678 85.3449Z"/>
+<path id="path4_stroke" d="M 21.8499 11.8975C 21.8499 17.3593 17.4107 21.7949 11.9249 21.7949L 11.9249 25.7949C 19.6111 25.7949 25.8499 19.5772 25.8499 11.8975L 21.8499 11.8975ZM 11.9249 21.7949C 6.4392 21.7949 2 17.3593 2 11.8975L -2 11.8975C -2 19.5772 4.23877 25.7949 11.9249 25.7949L 11.9249 21.7949ZM 2 11.8975C 2 6.43559 6.4392 2 11.9249 2L 11.9249 -2C 4.23877 -2 -2 4.21776 -2 11.8975L 2 11.8975ZM 11.9249 2C 17.4107 2 21.8499 6.43559 21.8499 11.8975L 25.8499 11.8975C 25.8499 4.21776 19.6111 -2 11.9249 -2L 11.9249 2Z"/>
+<path id="path5_stroke" d="M 51.3115 26.5943C 51.3115 40.1731 40.2771 51.1887 26.6558 51.1887L 26.6558 55.1887C 42.4776 55.1887 55.3115 42.3909 55.3115 26.5943L 51.3115 26.5943ZM 26.6558 51.1887C 13.0344 51.1887 2 40.1731 2 26.5943L -2 26.5943C -2 42.3909 10.834 55.1887 26.6558 55.1887L 26.6558 51.1887ZM 2 26.5943C 2 13.0156 13.0344 2 26.6558 2L 26.6558 -2C 10.834 -2 -2 10.7978 -2 26.5943L 2 26.5943ZM 26.6558 2C 40.2771 2 51.3115 13.0156 51.3115 26.5943L 55.3115 26.5943C 55.3115 10.7978 42.4776 -2 26.6558 -2L 26.6558 2Z"/>
+<path id="path6_stroke" d="M 62.535 32.1931C 62.535 48.864 48.9881 62.3863 32.2675 62.3863L 32.2675 66.3863C 51.1886 66.3863 66.535 51.0818 66.535 32.1931L 62.535 32.1931ZM 32.2675 62.3863C 15.5469 62.3863 2 48.864 2 32.1931L -2 32.1931C -2 51.0818 13.3464 66.3863 32.2675 66.3863L 32.2675 62.3863ZM 2 32.1931C 2 15.5223 15.5469 2 32.2675 2L 32.2675 -2C 13.3464 -2 -2 13.3044 -2 32.1931L 2 32.1931ZM 32.2675 2C 48.9881 2 62.535 15.5223 62.535 32.1931L 66.535 32.1931C 66.535 13.3044 51.1886 -2 32.2675 -2L 32.2675 2Z"/>
+</defs>
 </svg>
