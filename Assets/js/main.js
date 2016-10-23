@@ -147,6 +147,8 @@
          }
      });
  });
+
+
  $(document).ready(function () {
      /*
          spotify api configuration options
@@ -164,7 +166,17 @@
              response_type: 'token',
              redirect_uri: 'http://localhost:3000/profile', //redirect_uri : 'http://kiveapp.bplaced.net/profile',
              scope: 'user-read-private user-follow-read'
+
          }
+      var spotifyAuthOptionsLogout = {
+             client_id: 'fdc1dc7e249848609c38c17e5a88da9b',
+             response_type: 'token',
+             redirect_uri: 'http://localhost:3000/profile', //redirect_uri : 'http://kiveapp.bplaced.net/profile',
+             scope: 'user-read-private user-follow-read',
+          show_dialog: true
+
+         }
+
          /*
              bandsintown api config
              app_id can be any string no auth needed for v2.0
@@ -176,7 +188,9 @@
          locationpoint = position;
          // build the spotify login url
          var spotifyLoginUrl = 'https://accounts.spotify.com/authorize?' + $.param(spotifyAuthOptions);
+                var spotifyLoginUrlLogout = 'https://accounts.spotify.com/authorize?' + $.param(spotifyAuthOptionsLogout);
          $('#login-btn-spotify').attr('href', spotifyLoginUrl);
+           $('#logout').attr('href', spotifyLoginUrlLogout);
          if (window.location.hash) {
              // get token from redirected request url hash
              // hash needs to be in the following format "#access_token=<code>&token_type=..."
@@ -186,8 +200,7 @@
              if (authHash) {
                  // at the point we are loged in with spotify
                  var accessToken = authHash.pop();
-                 //            $('.container.login').addClass('hidden');
-                 //            $('.container.events').removeClass('hidden');
+
                  console.log('Authorized with access_token = "' + accessToken + '"');
                  // save the token for later use in the local storage
                  window.localStorage.setItem('Spotify.accessToken', accessToken);

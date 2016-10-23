@@ -252,10 +252,7 @@ footer {}
 .loc-in {
     border-radius: 5px !important;
 }
-.gallary-container {
-    max-width: 640px;
-    margin: 0 auto;
-}
+
 #getstarted {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 30px;
@@ -286,6 +283,7 @@ footer {}
     width: 175px;
     border: 0;
     height: 30px;
+    border-radius: 5px;
 }
 #position-input {
     width: 175px;
@@ -350,4 +348,9 @@ footer {}
          font-size: 35px;
 
     }
+}
+
+.maxwidthcenter {
+     max-width: 640px;
+    margin: 0 auto;
 }
