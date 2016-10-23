@@ -70,6 +70,42 @@
          }
      });
  }
+
+ $("#position-input").change(function () {
+
+     $(".gallary-container").empty();
+     console.log("change");
+     var x = $("#position-input").text();
+     if ($("#position-input").text() === "") {
+         console.log("test");
+         navigator.geolocation.getCurrentPosition(function (position) {
+             locationpoint = position.coords.latitude + "," + position.coords.longitude;
+         });
+     } else {
+         locationpoint = $("#position-input").val();
+     }
+     spotifyApi.getFollowedArtists(function (error, data) {
+         console.log(data);
+         // if there is no error go on with the flow
+         if (!error) {
+             $(".gallary-container").addClass
+             $.each(data.artists.items, function (index, artist) {
+                 if (!$('#position-input').val() == "") {
+
+                     getEventsByArtistLocationAndRadius(artist, $("#position-input").val(), $("#radius").val());
+
+                 }
+
+             });
+         }
+     });
+
+
+ });
+
+
+
+
  $("#radius").on("input", function () {
      $(".gallary-container").empty();
      console.log("change");
@@ -82,9 +118,7 @@
      } else {
          locationpoint = $("#position-input").text();
      }
-     spotifyApi.getFollowedArtists({
-         after: '0I2XqVXqHScXjHhk6AYYRe'
-     }, function (error, data) {
+     spotifyApi.getFollowedArtists(function (error, data) {
          console.log(data);
          // if there is no error go on with the flow
          if (!error) {
@@ -162,9 +196,7 @@
                      $('.container.events h1').text('Hallo, ' + data.display_name);
                      console.log(data);
                  });
-                 spotifyApi.getFollowedArtists({
-                     after: '0I2XqVXqHScXjHhk6AYYRe'
-                 }, function (error, data) {
+                 spotifyApi.getFollowedArtists(function (error, data) {
                      console.log(data);
                      // if there is no error go on with the flow
                      if (!error) {
