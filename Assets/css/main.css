@@ -323,3 +323,31 @@ footer {}
     left: 0;
     text-align: center;
 }
+@media screen and (max-width: 490px) {
+    .title {
+        left: 10px;
+    }
+
+   .title .artist-name {
+    font-size: 23px !important;
+       margin-top: 10px;
+    }
+      .title .location-name {
+    font-size: 18px !important;
+          margin-top: 10px;
+    }
+
+    .date-container .date {
+         width: 50px;
+    height: 65px;
+
+    }
+    .date-container .date .month {
+        height: 25px;
+            font-size: 20px;
+    }
+    .date-container .date .day {
+         font-size: 35px;
+
+    }
+}

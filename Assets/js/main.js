@@ -128,7 +128,7 @@
      var spotifyAuthOptions = {
              client_id: 'fdc1dc7e249848609c38c17e5a88da9b',
              response_type: 'token',
-             redirect_uri: 'http://localhost:3000/profile',
+             redirect_uri: 'http://localhost:3000/profile', //redirect_uri : 'http://kiveapp.bplaced.net/profile',
              scope: 'user-read-private user-follow-read'
          }
          /*
