@@ -3,3 +3,9 @@ ERLEDIGT-----Logout
 -Soundcloud Integration falls möglich
 -Spotify link zum Künstler
 ERLEDIGT-----location funktion
+-WEBAPP-integration
+-Loadingspinners
+
+
+-ÄNDERUNGEN:
+AUTOMATISCHE LOKALISIERUNG DEAKTIVIERT, DA SSL (HTTPS) BENÖTIGT WIRD
