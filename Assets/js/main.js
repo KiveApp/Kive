@@ -150,6 +150,7 @@
 
 
  $(document).ready(function () {
+
      /*
          spotify api configuration options
          reditect_uri musst be specified in MyApp config
@@ -164,14 +165,14 @@
      var spotifyAuthOptions = {
              client_id: 'fdc1dc7e249848609c38c17e5a88da9b',
              response_type: 'token',
-             redirect_uri: 'http://localhost:3000/profile', //redirect_uri : 'http://kiveapp.bplaced.net/profile',
+             redirect_uri: 'http://kiveapp.bplaced.net/profile', //redirect_uri : 'http://kiveapp.bplaced.net/profile',
              scope: 'user-read-private user-follow-read'
 
          }
       var spotifyAuthOptionsLogout = {
              client_id: 'fdc1dc7e249848609c38c17e5a88da9b',
              response_type: 'token',
-             redirect_uri: 'http://localhost:3000/profile', //redirect_uri : 'http://kiveapp.bplaced.net/profile',
+             redirect_uri: 'http://kiveapp.bplaced.net/profile', //redirect_uri : 'http://kiveapp.bplaced.net/profile',
              scope: 'user-read-private user-follow-read',
           show_dialog: true
 
@@ -184,7 +185,10 @@
              to get rid of allow-origin problem jsonp callback is used
              and done by jquery automaticly
          */
-     navigator.geolocation.getCurrentPosition(function (position) {
+         position = "Cologne, Germany";
+    //INSECURE ORGIN navigator.geolocation.getCurrentPosition(function (position) {
+
+
          locationpoint = position;
          // build the spotify login url
          var spotifyLoginUrl = 'https://accounts.spotify.com/authorize?' + $.param(spotifyAuthOptions);
@@ -216,7 +220,8 @@
                          $(".gallary-container").addClass
                          $.each(data.artists.items, function (index, artist) {
                              console.log("test");
-                             locationpoint = position.coords.latitude + "," + position.coords.longitude;
+                             //INSECURE ORGIN
+                             locationpoint = "Cologne, Germany"//position.coords.latitude + "," + position.coords.longitude;
                              getEventsByArtistLocationAndRadius(artist, locationpoint, 25);
                              // get data via bandintown.com using jsonp by adding callback=? this is for jquery to match the callback name automaticly
                              /*var bandTownApiUrl = 'http://api.bandsintown.com/artists/' + encodeURIComponent(artist.name) + '/events/recommended.json?' + $.param(bandsTownOptions) + '&callback=?';
@@ -241,5 +246,5 @@
                  });
              }
          }
-     });
+     // INSECURE ORGIN});
  });
