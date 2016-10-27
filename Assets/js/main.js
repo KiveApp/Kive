@@ -1,5 +1,6 @@
  var spotifyApi = new SpotifyWebApi();
  var locationpoint;
+var callbackUrl = "http://localhost:3000/profile";
 
  function togglemenu(x) {
      x.classList.toggle("change");
@@ -165,14 +166,14 @@
      var spotifyAuthOptions = {
              client_id: 'fdc1dc7e249848609c38c17e5a88da9b',
              response_type: 'token',
-             redirect_uri: 'http://kiveapp.bplaced.net/profile', //redirect_uri : 'http://kiveapp.bplaced.net/profile',
+             redirect_uri: callbackUrl, //redirect_uri : 'http://kiveapp.bplaced.net/profile',
              scope: 'user-read-private user-follow-read'
 
          }
       var spotifyAuthOptionsLogout = {
              client_id: 'fdc1dc7e249848609c38c17e5a88da9b',
              response_type: 'token',
-             redirect_uri: 'http://kiveapp.bplaced.net/profile', //redirect_uri : 'http://kiveapp.bplaced.net/profile',
+             redirect_uri: callbackUrl, //redirect_uri : 'http://kiveapp.bplaced.net/profile',
              scope: 'user-read-private user-follow-read',
           show_dialog: true
 
